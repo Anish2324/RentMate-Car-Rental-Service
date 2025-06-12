@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your App.css or index.css */
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  10%, 90% { opacity: 1; }
+}
+.animate-fade-in-out {
+  animation: fadeInOut 2.5s linear infinite;
+}
