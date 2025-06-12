@@ -5,7 +5,7 @@ import { Verification_Email_Template, Welcome_Email_Template } from "./emailtemp
 export const sendVerificationEamil=async(email,verificationCode)=>{
     try {
      const response=   await transporter.sendMail({
-            from: '"RentMate" <6996.ashokkumar@gmail.com>',
+            from: '"RentMate" <Your email-address>',
 
             to: email, // list of receivers
             subject: "Verify your Email", // Subject line
